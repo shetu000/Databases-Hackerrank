@@ -256,3 +256,69 @@ A particular database is normalized to satisfy a particular level of normalizati
 ```
 ###### ANS: NOT IN 3NF
 
+Q.*__Database Normalization #3__*
+```
+A database used by a college’s application stores the relationship between students and the courses they are enrolled in. We have information for each STUDENT (such as name, date of birth, date of enrollment, student-id) and COURSE (course code, instructor, etc.). In real life, a student takes several courses simultaneously while a subject is studied by several students. We need to capture this many-to-many relationship in our database. From the above information, what is the minimum number of tables required to structure this database in accordance with the rules of 2NF normalization?
+```
+###### ANS: 3
+
+Q.*__Database Normalization #4__*
+
+```
+A database, normalized as per 2NF rules, has been split into 10 tables. Each of the tables has exactly two columns: one key attribute and one non-key attribute. What is the minimum number of tables required to express this database in 3NF form? Enter the integer in the text box below. Do not leave any leading or trailing spaces.
+```
+###### ANS:10
+Q.*__Database Normalization #5__*
+```
+Consider the following relation and determinants.
+
+R(a, b,c,d)
+
+                   a,c -> b,d
+                   a,d -> b
+        Also, a,b is a primary key for the above relation.
+The above relation is in x NF form where x may take the following values {1,2,3,3.5} corresponding to {1NF, 2NF, 3NF and BCNF} respectively.
+What is the maximum possible value of x such that the above relation satisfies the *x*NF form?
+Your answer should only be restricted to one of these numbers:1/2/3/3.5 Do not leave any leading or trailing spaces.
+```
+###### ANS:3
+
+Q.*__Database Normalization #9__*
+```
+Consider the following relation and determinants. The key(s) are bolded.
+R(a, b ,c,d,e)
+
+Which of these determinants is a NON-CANDIDATE key? In the text box, only enter the index number (1-3) of the dependency which you have identified as non-key.
+
+a,c -> b,d,e
+a,d -> b
+a,c,e -> b,d
+```
+###### ANS:2
+
+
+Q.*__Database Normalization #10__*
+```
+The following table stores rows of information about pizza deliveries. The three columns correspond to the Restaurant name, Crust, Delivery Area. We convert this table into Fourth Normal Form and so we end up creating two tables, each with two columns and N rows. (Both the new tables have an equal number of rows)
+
+Restaurant  Crust       Delivery Area
+-------------------------------------------
+X Pizza     Thick       Whitefield
+X Pizza     Thick       Greenville
+X Pizza     Thick       Capital
+X Pizza     Stuffed     Whitefield
+X Pizza     Stuffed     Greenville
+X Pizza     Stuffed     Capital
+Papa Pizza  Thin        Capital
+Papa Pizza  Stuffed     Capital
+F1 Pizza    Thick       Whitefield
+F1 Pizza    Thick       Greenville
+F1 Pizza    Thin        Whitefield
+F1 Pizza    Thin        Greenville
+In the text box below, enter the value of the integer N.
+```
+
+###### ANS:6
+
+
+
