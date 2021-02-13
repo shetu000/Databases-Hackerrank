@@ -104,16 +104,44 @@ Only enter a single integer. Do not include any extra spaces or newlines.
 ###### ANS:2
 ###### Because In Student table and Teaching Assistants tahble 2 records are similar they are Number=ID=3412 and Number=ID=2341
 
-Q8: __Relational Algebra - 3__
+Q: *__Relational Algebra - 3__*
 
 ```
 Which is a join condition contains an equality operator?
 
 ```
-###### Answer: Equijoins - joining against equality
-###### FROM t1
-###### JOIN t2
-###### ON t1.id=t2.id
+###### Ans: Equijoins
+
+Q: *__Relational Algebra - 4__*
+```
+In precedence of set operators the expression is evaluated from:
+```
+###### Ans:Left to right
+
+Q: *__Database Query lANGUAGE__*
+```
+Using which language can a user request information from a database ?
+```
+###### Ans:Query
+
+Q: *__Procedural language__*
+```
+Which one of the following is a procedural language ?
+```
+###### Ans:Relational algebra
+
+Q: *__Relations-1__*
+```
+The_____ operation allows the combining of two relations by merging pairs of tuples, one from each relation, into a single tuple.
+```
+###### Ans:Join
+
+Q: *__Relations-2__*
+```
+The result which operation contains all pairs of tuples from the two relations, regardless of whether their attribute values match.
+```
+###### Ans:Cartesian product
+
 
 
 
