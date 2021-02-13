@@ -142,7 +142,18 @@ The result which operation contains all pairs of tuples from the two relations, 
 ```
 ###### Ans:Cartesian product
 
+Q: *__Index Architecture Types__*
+```
+How many index architecture type classifications are there in MS SQL Server?
+```
+###### Ans:2
 
+Q: *__Indexes-2__*
+```
+Which of the following statement is true about row locators in non-clustered indexes in MS SQL Server?
+```
+
+###### Ans:If the table has a clustered index, or the index is on an indexed view, the row locator is the clustered index key for the row.
 
 
 
