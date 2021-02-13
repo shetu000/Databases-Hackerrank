@@ -10,7 +10,7 @@ Only enter the correct integer in the editor below. Do not include any extra spa
 ```
 
 
-ANS: 8 (description: A U B={1,2,3,4,5,6,7,8})
+###### ANS: 8 (description: A U B={1,2,3,4,5,6,7,8})
 
 
 2.You are given two sets.
