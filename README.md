@@ -229,7 +229,30 @@ Suppose attributes D1, D2, and D3 have n1, n2, and n3 different values respectiv
 ###### Ans:(4, 7, 3, 84, 160, 117)
 
 
+Q.*__Database Normalization #1 - 1NF__*
 
+```
+The following unnormalized table named PRODUCT is transformed to first normal form (1NF) by splitting it into two tables which have X and Y rows (such that X <Y) respectively. Both the tables have Z columns.
 
+*Product-ID*    *Colors*    *Price*
+1               Red,Green   15.0
+2               Blue        18.0
+3               Yellow,Pink 2.5
+What are the values of X, Y, Z? Enter these integers, each on a new line, in the text-box below. Do not leave any leading or trailing spaces.
+```
+###### Ans:3 
+######     5
+######     2
 
+###### Because
+###### 3 (1, 15.0), (2, 18.0), (3, 2.5)
+###### 5 (Red, 15.0), (Green, 15.0), (Blue, 18.0), (Yellow, 2.5), (Pink, 2.5)
+###### 2 *Product-ID* and *Price*, *Colors* and *Price*
+
+Q.*__Database Normalization #2 - 1/2/3 NF__*
+
+```
+A particular database is normalized to satisfy a particular level of normalization (either 1NF or 2NF or 3NF). One of the tables contains, among other fields, a column for the City and a column for the Zip Code. Assuming that there is a many-to-one mapping between the set of Zip Code(s) and City, we may conclude that the database is definitely NOT in  x NF form. What is the integer x (1, 2, or 3)? Fill your answer in the text box below.
+```
+###### ANS: NOT IN 3NF
 
