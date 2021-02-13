@@ -1,5 +1,7 @@
 # Databases-Hackerrank
 
+###### (do not write the ans description only write the exact ans and directly submit because there is not extra test cases for the quaries)
+
 
 Q1.*__Basics of Sets and Relations #1__*
 ```You are given two sets
