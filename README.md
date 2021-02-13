@@ -46,6 +46,18 @@ What is the total number of ordered pairs present in the Cartesian Product AXB  
 ###### set B = 7 values
 ###### so number pairs in cartesian product (AXB) = 6*7 =42
 
-
+Q5: *__Basics of Sets and Relations #5__*
+```
+Consider the following data table named Student.
+Student Name    Number  Sex  
+Ben             3412    M  
+Dan             1234    M  
+Nel             2341    F  
+What is the count of rows returned in the following relational selection?
+σ(Number<3000)(Student)
+Only enter a single integer. Do not include any extra spaces or newlines.
+```
+###### ANS:2
+###### Because Number 3412 < 3000 and Number 2341 < 3000 (only 2 records)
 
 
