@@ -155,6 +155,80 @@ Which of the following statement is true about row locators in non-clustered ind
 
 ###### Ans:If the table has a clustered index, or the index is on an indexed view, the row locator is the clustered index key for the row.
 
+Q: *__Indexes-3__*
+```
+Consider the following two designs to store the data using clustered indexes in MS SQL Server:
+In the first design, the fill factor is 20% and the total number of free rows per page are A.
+
+In the second design, the fill factor is 40% and the total number of free rows per page are B.
+
+Which the followings describes the relation between A and B:
+```
+
+###### Ans:A = 1.33B
+
+Q. *__Indexes - 4__*
+```
+The correct syntax for creating composite indexes in MS SQL Sever is:
+```
+###### Ans:<p>CREATE INDEX index_name</p> <p>ON table_name(column1, column2);</p>
+
+Q. *__OLAP Performance__*
+```
+Which of these helps OLAP speed up queries, in terms of performance?
+```
+###### Ans:Aggregation
+
+Q.__*OLAP Operations - 1__*
+
+```
+This OLAP operation involves computing all of the data relationships for one or more dimensions.
+```
+###### Ans:roll-up
+
+Q.__*OLAP Operations - 2__*
+```
+This OLAP Operation rotates the data, and delivers an alternative to the original presentation.
+```
+###### Ans:pivot
+
+Q. *__OLAP Cube Metadata__*
+
+```
+What is the source of the cube metadata for OLAP?
+```
+###### Ans:Both star and snowflake schema(s)
+
+Q.*__OLAP Name(s)__*
+
+```
+Which of these are alternate names for an OLAP Cube? The options in the top row are a and b respecitvely and those in the bottom row are c and d.
+```
+###### Ans: Both (B) and (C) (Multidimensional Cube+Hyper Cube)
+
+
+Q.*__The Total View__*
+
+```
+Which of these provides a total view of the organization?
+```
+###### Ans: Data Warehousing
+
+Q.*__OLAP Operation Types__*
+
+```
+Consider a fact table DataPoints(D1,D2,D3,x), and the following three queries:
+
+Q1: Select D1,D2,D3,Sum(x) From DataPoints Group By D1,D2,D3
+
+Q2: Select D1,D2,D3,Sum(x) From DataPoints Group By D1,D2,D3 WITH CUBE
+
+Q3: Select D1,D2,D3,Sum(x) From DataPoints Group By D1,D2,D3 WITH ROLLUP
+Suppose attributes D1, D2, and D3 have n1, n2, and n3 different values respectively, and assume that each possible combination of values appears at least once in the table DataPoints. The number of tuples in the result of each of the three queries above can be specified as an arithmetic formula involving n1, n2, and n3. Pick the one tuple (a,b,c,d,e,f) in the list below such that when n1=a, n2=b, and n3=c, then the result sizes of queries Q1, Q2, and Q3 are d, e, and f respectively.
+```
+###### Ans:(4, 7, 3, 84, 160, 117)
+
+
 
 
 
