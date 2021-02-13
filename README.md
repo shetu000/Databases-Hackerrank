@@ -1,5 +1,6 @@
 # Databases-Hackerrank
 
+#After click on "RUN CODE" if you found this "No sample test-cases for this question. Please test your code against custom input." then don't panic simply just submit your code and it will show test case successfull
 ###### (do not write the ans description only write the exact ans and directly submit because there is not extra test cases for the quaries)
 
 
@@ -100,7 +101,18 @@ Student ⊳⊲(Number=ID) Teaching Assistants
 Only enter a single integer. Do not include any extra spaces or newlines.
 ```
 ###### ANS:2
-###### Because Number=ID=3412 and Number=ID=2341
+###### Because In Student table and Teaching Assistants tahble 2 records are similar they are Number=ID=3412 and Number=ID=2341
+
+Q8: __Relational Algebra - 3__
+
+```
+Which is a join condition contains an equality operator?
+
+```
+###### Answer: Equijoins - joining against equality
+###### FROM t1
+###### JOIN t2
+###### ON t1.id=t2.id
 
 
 
