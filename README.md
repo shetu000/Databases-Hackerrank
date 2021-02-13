@@ -62,4 +62,48 @@ Only enter a single integer. Do not include any extra spaces or newlines.
 ###### ANS:2
 ###### Because Number 3412 < 3000 and Number 2341 < 3000 (only 2 records)
 
+Q6: *__Basics of Sets and Relations #6__*
+
+```
+Consider the following data table named Student.
+
+Name                Number  Sex  
+Nina                3412    F 
+Mike                1234    M  
+Nelson              2341    F  
+What is the count of attributes (columns) returned in the following projection?
+π(Name, Number)(Student)
+
+Only enter a single integer. Do not include any extra spaces or newlines.
+```
+###### ANS:2
+###### Because there is only two column "Name" and "Number"
+
+Q7: __Basics of Sets and Relations #7__
+
+```
+Consider the following data table named Student.
+
+Student Name        Number  Sex  
+Nina                3412    F 
+Mike                1234    M  
+Nelson              2341    F  
+Here is another data table named Teaching Assistants
+
+Subject     ID
+Physics     3412
+Chemistry   1111
+Mathematics 2341  
+What is the count of rows returned in the following join operation?
+Student ⊳⊲(Number=ID) Teaching Assistants
+
+Only enter a single integer. Do not include any extra spaces or newlines.
+```
+###### ANS:2
+###### Because Number=ID=3412 and Number=ID=2341
+
+
+
+
+
 
